@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>kanban</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="css/style.css">
+  
+</head>
+
+<body>
+  <header class="clearfix">
+    <div class="logo">Spoqa</div>
+    <h1 class="title">Kanban board</h1>
+    <nav>
+      <ul class="filters">
+        <li>QUICK FILTERS</li>
+        <li class="btn-Improvment">Improvment</li>
+        <li class="btn-Defect">Defect</li>
+      </ul>
+    </nav>
+    <button type="button" class="btn btn-default btn-lg js-open-issue">Create Issue</button>
+  </header>
+  <section class="container">
+    <div class="row">
+      <div class="col-xs-6 col-sm-3">
+        <h3><span></span>To do</h3>
+        <ul class="cards">
+          <li>
+            <dl class="improvement">
+              <dt>ISSUE-380</dt>
+              <dd>Lorem upsum dolol ist amt. conserctetu
+                <dd>
+                  <dd class="date">date</dd>
+            </dl>
+          </li>
+
+          <li>
+            <dl class="improvement">
+              <dt>ISSUE-222</dt>
+              <dd>Lorem upsum dolol ist amt. conserctetu
+                <dd>
+                  <dd class="date">date</dd>
+            </dl>
+          </li>
+
+          <li>
+            <dl class="improvement">
+              <dt>ISSUE-222</dt>
+              <dd>Lorem upsum dolol ist amt. conserctetu
+                <dd>
+                  <dd class="date">date</dd>
+            </dl>
+          </li>
+
+          <li>
+            <dl class="improvement">
+              <dt>ISSUE-222</dt>
+              <dd>Lorem upsum dolol ist amt. conserctetu
+                <dd>
+                  <dd class="date">date</dd>
+            </dl>
+          </li>
+        </ul>
+      </div>
+      <div class="col-xs-6 col-sm-3">
+        <h3><span></span>in Progress</h3>
+        <ul class="cards">
+          <li>
+            <dl class="defect">
+              <dt>ISSUE-380</dt>
+              <dd>Lorem upsum dolol ist amt. conserctetu
+                <dd>
+                  <dd class="date">date</dd>
+            </dl>
+          </li>
+          <li>
+            <dl class="defect">
+              <dt>ISSUE-222</dt>
+              <dd>Lorem upsum dolol ist amt. conserctetu
+                <dd>
+                  <dd class="date">date</dd>
+            </dl>
+          </li>
+        </ul>
+      </div>
+      <div class="col-xs-6 col-sm-3">
+        <h3><span></span>Review</h3>
+        <ul class="cards">
+          <li>
+            <dl class="defect">
+              <dt>ISSUE-380</dt>
+              <dd>Lorem upsum dolol ist amt. conserctetu
+                <dd>
+                  <dd class="date">date</dd>
+            </dl>
+          </li>
+          <li>
+            <dl class="defect">
+              <dt>ISSUE-222</dt>
+              <dd>Lorem upsum dolol ist amt. conserctetu
+                <dd>
+                  <dd class="date">date</dd>
+            </dl>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-xs-6 col-sm-3 ">
+        <h3><span></span>Done</h3>
+        <ul class="cards">
+          <li>
+            <dl class="defect">
+              <dt>ISSUE-380</dt>
+              <dd>Lorem upsum dolol ist amt. conserctetu
+                <dd>
+                  <dd class="date">date</dd>
+            </dl>
+          </li>
+          <li>
+            <dl class="defect">
+              <dt>ISSUE-222</dt>
+              <dd>Lorem upsum dolol ist amt. conserctetu
+                <dd>
+                  <dd class="date">date</dd>
+            </dl>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="container-input">
+    <div class="input_issues">
+      <div>
+        <h2>Creat Issues</h2>
+        <p>Bulla metus Ullacomdper vel, tincidunt ddes Euismod in nibh</p>
+      </div>
+      <form role="form">
+        <div class="form-group">
+          <label for="usr">Issue Name</label>
+          <input type="text" class="form-control" id="issue">
+        </div>
+        <div class="form-group">
+          <label for="usr">Issue type</label>
+          <select class="form-control" id="type">
+            <option value="improvement">Improvement</option>
+            <option value="defect">Defect</option>
+          </select>
+        </div>
+
+        <button type="button" class="btn btn-default btn-lg js-submit-issues">Create Issues</button>
+      </form>
+    </div>
+  </section>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+  <script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+  <script src='http://code.jquery.com/ui/1.11.4/jquery-ui.js'></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
